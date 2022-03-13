@@ -1,0 +1,1 @@
+Returns the name for the right side of the bed

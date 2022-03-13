@@ -1,0 +1,10 @@
+requests<3,>=2.25
+sumologic-sdk<1,>=0.1
+numpy<2,>=1.20
+boto3>=1.20.4
+
+[dev]
+pylint
+flake8
+pep257
+build

@@ -1,0 +1,1 @@
+Returns pump ID2 (TI MAC address) with embedded colons. E.g., `"20:C3:8F:C3:28:5E"`

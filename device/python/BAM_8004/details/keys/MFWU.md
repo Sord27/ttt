@@ -1,0 +1,1 @@
+This key does not currently take any parameters. This commands the Sleep Expert to compare all loaded firmware with all available firmware in the /bam/firmware directory and upload any files that are appropriate to the system (SP1 or SP2) and differ in version number from the version currently loaded. You can use the [SFWU](#SFWU) key to monitor the upload progress.

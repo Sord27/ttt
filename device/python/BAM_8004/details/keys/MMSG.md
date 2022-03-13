@@ -1,0 +1,1 @@
+Returns the current Sleep Number settings (in decimal format) for each side, separated by a space, right side first.

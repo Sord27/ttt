@@ -1,0 +1,4 @@
+{
+    "unixCommand":"echo 93 > /sys/class/gpio/export; echo out > /sys/class/gpio/gpio93/direction; echo 1 > /sys/class/gpio/gpio93/value; echo 93 > /sys/class/gpio/unexport"
+
+}

@@ -1,0 +1,1 @@
+Returns a string with the version of the RFS currently running on the Sleep Expert.

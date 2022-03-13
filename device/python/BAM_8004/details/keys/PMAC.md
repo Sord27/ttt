@@ -1,0 +1,1 @@
+Returns a MAC address with embedded colons. E.g, `"CC:04:B4:01:F7:1E"`

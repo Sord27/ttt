@@ -1,0 +1,1 @@
+Returns the number of seconds the pump has been idle.

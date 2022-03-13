@@ -1,0 +1,1 @@
+Returns a 6 byte serial number for the Sleep Expert.

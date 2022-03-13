@@ -1,0 +1,6 @@
+[BASIC]
+min-public-methods=1
+disable=consider-using-with
+
+[LOGGING]
+disable=logging-fstring-interpolation

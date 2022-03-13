@@ -1,0 +1,1 @@
+Returns a string with the version of bammit software currently running on the Sleep Expert.

@@ -1,0 +1,31 @@
+#!/bin/bash
+
+timestamp=`date "+%Y%m%d%H%M"`
+mkdir $timestamp
+
+echo "------------------------------------------------------------"
+echo "Running RSO_connectivity.py on prod..."
+python RSO_connectivity.py prod RSO_input_list_prod.txt
+
+echo "------------------------------------------------------------"
+echo "Running RSO_connectivity.py on circle1..."
+python RSO_connectivity.py c1 RSO_input_list_circle1.txt
+
+echo "------------------------------------------------------------"
+echo "Running RSO_connectivity.py on circle2..."
+python RSO_connectivity.py c2 RSO_input_list_circle2.txt
+
+echo "------------------------------------------------------------"
+echo "Running RSO_connectivity.py on test..."
+python RSO_connectivity.py test RSO_input_list_test.txt
+
+echo "------------------------------------------------------------"
+echo "Running RSO_connectivity.py on stage..."
+python RSO_connectivity.py stage RSO_input_list_stage.txt
+
+mv RSO_connectivity_*.txt $timestamp/
+rm -rf latest
+mkdir latest
+cp $timestamp/* latest/
+mv $timestamp archive/
+

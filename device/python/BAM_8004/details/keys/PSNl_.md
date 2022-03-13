@@ -1,0 +1,1 @@
+Returns the current actual Sleep Number for the left user.

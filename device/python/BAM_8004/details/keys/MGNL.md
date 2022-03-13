@@ -1,0 +1,1 @@
+Returns the name for the let side of the bed

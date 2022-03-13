@@ -1,0 +1,1 @@
+Sets the Responsive Air Adjustment Threshold. Must be between 0 and 20.

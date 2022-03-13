@@ -1,0 +1,1 @@
+Sets the Responsive Air In Bed Timeout. Must be between 0 and 3600.

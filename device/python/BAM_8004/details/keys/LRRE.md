@@ -1,0 +1,1 @@
+Enable Responsive Air on the right side. Value sent must be either 0 or 1.

@@ -1,0 +1,1 @@
+Returns the last Sleep Number target set by the right user.

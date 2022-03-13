@@ -1,0 +1,1 @@
+Returns the pump atmospheric offset as a decimal number which was set during baseline calibration. If this is value is 0, then the pump has not been calibrated yet.

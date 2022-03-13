@@ -1,0 +1,1 @@
+This command takes no parameter, but clears the bind table for the pump.

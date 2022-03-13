@@ -1,0 +1,1 @@
+This takes a single digit parameter – `“1”` through `“5”` – to indicate which Smart Outlet you are addressing. It returns a six-digit hex string representing the Smart Outlet MAC address associated with the Smart Outlet index you specified.

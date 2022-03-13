@@ -1,0 +1,1 @@
+Returns the number of seconds since the last Sleep Number command.

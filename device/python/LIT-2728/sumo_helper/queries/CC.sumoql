@@ -1,0 +1,15 @@
+_sourceCategory=boson/boson/* AND ("Telling pump to reboot immediately" OR "usb</dev/ttyACM0> open error No such file or directory" OR "BAM I/O not ready")
+| parse "* * * 500-* SE_* *" as month, day, time, mac, sw, errMsg
+| isNumeric(concat("0x",mac)) as isNUM
+| if(isNum, mac, substring(mac, 0, 12)) as mac
+| toUpperCase(mac)
+| if(length(sw) < 32, concat(sw,"son"), sw) as sw
+| lookup mac_a from path://"/Library/Users/ivan.malynyak@sleepnumber.com/Env_PTG3_MACY" on mac = mac_a | where (!isNull(mac_a))
+| where mac matches "CC*"
+| if (errMsg matches "*Telling pump to reboot immediately*",_messageTime, 0) as tellReboot
+| if (errMsg matches "*usb</dev/ttyACM0> open error No such file or directory*",_messageTime, 0) as usbUnavaliable
+| if (errMsg matches "*BAM I/O not ready*",_messageTime, 0) as noSESPCommunication
+| max(tellReboot) as tellReboot_ms, max(usbUnavaliable) as usbUnavaliable_ms, max(noSESPCommunication) as noSESPCommunication_ms, count_distinct (mac) as sw_ver by mac, sw
+| if (tellReboot_ms>0 and usbUnavaliable_ms>0 and noSESPCommunication_ms>0 and tellReboot_ms<usbUnavaliable_ms and tellReboot_ms<noSESPCommunication_ms, 1, 0) as errorFound
+| where errorFound>0
+| count_distinct (errorFound) as temp by mac, sw | fields mac 

@@ -1,0 +1,1 @@
+Returns a hex number indicating the BLE firmware version. E.g., `0x00030009` is returned for BLE firmware version 3.0.9

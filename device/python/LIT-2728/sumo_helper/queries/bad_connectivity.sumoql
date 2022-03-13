@@ -1,0 +1,6 @@
+_sourceCategory=boson/boson/messages AND "bloh_soc_init" AND "Resource temporarily unavailable" 
+| parse "500-* " as mac
+| toUpperCase(mac)
+| lookup mac_a from path://"/Library/Users/ivan.malynyak@sleepnumber.com/Env_PTG3_MACY" on mac = mac_a 
+| where (!isNull(mac_a))
+| count mac | fields mac

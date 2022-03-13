@@ -1,0 +1,1 @@
+This command takes no parameter, but fills both sides to a Sleep Number of 100.

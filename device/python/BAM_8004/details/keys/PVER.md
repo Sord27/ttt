@@ -1,0 +1,1 @@
+Returns a hex number indicating the K20 firmware version. E.g., `0x02005016` is returned for pump firmware version 2.5.16.

@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+from frpc.frpc_script import FRPCScript
+
+if __name__ == "__main__":
+    FRPCScript.run()

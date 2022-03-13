@@ -1,0 +1,7 @@
+_sourceCategory="boson/boson/bamlog"
+AND ("date not correct")
+| count as logs_per_mac, first(_messageTime) as last_log_ts, last(_messageTime) as first_log_ts by mac 
+| (last_log_ts - first_log_ts) / (1000 * 60 * 60) as first_to_last_hours
+| where first_to_last_hours > 1
+| where logs_per_mac > 10
+| where !isEmpty(mac)

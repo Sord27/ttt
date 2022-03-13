@@ -1,0 +1,1 @@
+This command takes no parameter, but stops any current pump action (inflate or deflate).

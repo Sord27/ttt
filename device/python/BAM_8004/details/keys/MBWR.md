@@ -1,0 +1,1 @@
+This command takes no parameter, but opens a bind window for the pump.

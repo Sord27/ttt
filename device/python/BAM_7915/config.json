@@ -1,0 +1,49 @@
+{
+  "circle1": {
+    "apps-api": "https://circle1-api.circle.siq.sleepnumber.com",
+    "csp-api" : "https://circle1-csp-api.circle.siq.sleepnumber.com",
+    "hd-api" : "https://circle1-hd-api.circle.siq.sleepnumber.com",
+    "order-api": "https://circle1-order-api.circle.siq.sleepnumber.com",
+    "ops-portal": "https://circle1-ops.circle.siq.sleepnumber.com/bam",
+    "cs-portal" : "https://circle1-csp.circle.siq.sleepnumber.com/",
+    "admin-svc" : "https://circle1-admin-svc.circle.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-svc" : "https://circle1-apps-svc.circle.siq.sleepnumber.com/bam/rest/sn/v1",
+    "backoffice" : { "username":"backoffice", "password" : "backoffice"},
+    "s3_registry" : "sc-corp-circle-vpc/circle1/device-registry",
+    "s3_software" : "bamsvc-circle1-device-software",
+    "sql" : {
+      "ssh_username" : "REPLACE_ME_SSH_USERNAME",
+      "ssh_gateway"  : "circle-ssh",
+      "ssh_tunnel"   : "circle-sql",
+      "sql_username" : "circle1",
+      "sql_password" : "circle1-rds",
+      "sql_database" : "circle1",
+      "sql_host"     : "localhost",
+      "sql_port"     : 1433
+    }
+  },
+  "circle2": {
+    "apps-api" : "https://circle2-api.circle.siq.sleepnumber.com/",
+    "hd-api" : "https://circle2-hd-api.circle.siq.sleepnumber.com/",
+    "csp-api" : "https://circle2-csp.circle.siq.sleepnumber.com/",
+    "order-api" : "https://circle2-order-api.circle.siq.sleepnumber.com/",
+    "ops-portal": "https://circle2-ops.circle.siq.sleepnumber.com/bam/",
+    "cs-portal" : "https://circle2-csp.circle.siq.sleepnumber.com/",
+    "circle2_URL" : "https://circle2-admin-svc.circle.siq.sleepnumber.com/bam/rest/sn/v1",
+    "admin-svc" : "https://circle2-admin-svc.circle.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-svc" : "https://circle2-apps-svc.circle.siq.sleepnumber.com/bam/rest/sn/v1",
+    "backoffice" : { "username":"backoffice", "password" : "backoffice"},
+    "s3_registry" : "sc-corp-circle-vpc/circle2/device-registry",
+    "s3_software" : "bamsvc-circle2-device-software",
+    "sql" : {
+      "ssh_username" : "REPLACE_ME_SSH_USERNAME",
+      "ssh_gateway"  : "circle-ssh",
+      "ssh_tunnel"   : "circle-sql",
+      "sql_username" : "circle2",
+      "sql_password" : "circle2-rds",
+      "sql_database" : "circle2",
+      "sql_host"     : "localhost",
+      "sql_port"     : 1433
+    }
+  }
+}

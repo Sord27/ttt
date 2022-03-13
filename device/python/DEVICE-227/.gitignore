@@ -1,0 +1,9 @@
+*.raw1k
+*.jar
+*.log
+*.java
+.pytest_cache
+__pycache__
+.DS_Store
+*.json
+!tags.json

@@ -1,0 +1,1 @@
+Returns the sampling rate for the Smart Pump Analog-to-Digital conversion in samples per second. The number is returned as a decimal value.

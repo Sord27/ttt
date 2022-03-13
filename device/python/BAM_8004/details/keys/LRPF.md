@@ -1,0 +1,1 @@
+Sets the Responsive Air poll frequency. Must be between 60 and 172800.

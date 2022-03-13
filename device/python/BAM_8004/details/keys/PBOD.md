@@ -1,0 +1,1 @@
+This takes a single digit parameter – `“1”` through `“5”` to indicate which Smart Outlet index you are addressing. It disassociates a MAC address with that index and marks that Smart Outlet index as being unused.

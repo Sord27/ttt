@@ -1,0 +1,5 @@
+_sourceCategory=boson/boson/messages
+AND "bloh_soc_init"
+AND "Resource temporarily unavailable"
+OR "Dl timeout"
+| parse "500-* " as mac | count by mac | fields mac

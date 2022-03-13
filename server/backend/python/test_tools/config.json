@@ -1,0 +1,461 @@
+{
+  "alpha": {
+    "admin-svc": "https://alpha-admin-svc.bamlabs.com/bam/rest/sn/v1",
+    "apps-api": "https://alpha-api.bamlabs.com",
+    "apps-svc": "https://alpha-apps-svc.bamlabs.com/bam/rest/sn/v1",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "",
+    "csp-api": "https://alpha-csp-api.bamlabs.com",
+    "csp-portal": "https://alpha-csp.bamlabs.com",
+    "hazelcast": "",
+    "hd-api": "https://alpha-hd-api.bamlabs.com",
+    "ops-portal": "https://alpha-ops.bamlabs.com/bam",
+    "order-api": "https://alpha-order-api.bamlabs.com",
+    "s3_registry": "bamlabs-alpha-vpc/alpha/device-registry",
+    "s3_software": "bamsvc-test-device-software",
+    "sql": {
+      "sql_database": "bam",
+      "sql_host": "localhost",
+      "sql_password": "alpha-rds",
+      "sql_port": 1433,
+      "sql_username": "alpha",
+      "ssh_gateway": "alpha-ssh",
+      "ssh_tunnel": "alpha-sql",
+      "ssh_username": "xxxxx"
+    }
+  },
+  "circle1": {
+    "admin-svc": "https://circle1-admin-svc.circle.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "https://circle1-api.circle.siq.sleepnumber.com",
+    "apps-svc": "https://circle1-apps-svc.circle.siq.sleepnumber.com/bam/rest/sn/v1",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "",
+    "csp-api": "https://circle1-csp-api.circle.siq.sleepnumber.com",
+    "csp-portal": "https://circle1-csp.circle.siq.sleepnumber.com",
+    "hazelcast": "",
+    "hd-api": "https://circle1-hd-api.circle.siq.sleepnumber.com",
+    "ops-portal": "https://circle1-ops.circle.siq.sleepnumber.com/bam",
+    "order-api": "https://circle1-order-api.circle.siq.sleepnumber.com",
+    "s3_registry": "sc-corp-circle-vpc/circle1/device-registry",
+    "s3_software": "bamsvc-circle1-device-software",
+    "sql": {
+      "sql_database": "circle1",
+      "sql_host": "localhost",
+      "sql_password": "circle1-rds",
+      "sql_port": 1433,
+      "sql_username": "circle1",
+      "ssh_gateway": "circle-ssh",
+      "ssh_tunnel": "circle-sql",
+      "ssh_username": "xxxxx"
+    },
+    "ui": "https://circle1-ui.siq.sleepnumber.com"
+  },
+  "circle2": {
+    "admin-svc": "https://circle2-admin-svc.circle.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "https://circle2-api.circle.siq.sleepnumber.com",
+    "apps-svc": "https://circle2-apps-svc.circle.siq.sleepnumber.com/bam/rest/sn/v1",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "",
+    "csp-api": "https://circle2-csp-api.circle.siq.sleepnumber.com",
+    "csp-portal": "https://circle2-csp.circle.siq.sleepnumber.com",
+    "hazelcast": "",
+    "hd-api": "https://circle2-hd-api.circle.siq.sleepnumber.com",
+    "ops-portal": "https://circle2-ops.circle.siq.sleepnumber.com/bam",
+    "order-api": "https://circle2-order-api.circle.siq.sleepnumber.com",
+    "s3_registry": "sc-corp-circle-vpc/circle2/device-registry",
+    "s3_software": "bamsvc-circle2-device-software",
+    "sql": {
+      "sql_database": "circle2",
+      "sql_host": "localhost",
+      "sql_password": "circle2-rds",
+      "sql_port": 1433,
+      "sql_username": "circle2",
+      "ssh_gateway": "circle-ssh",
+      "ssh_tunnel": "circle-sql",
+      "ssh_username": "xxxxx"
+    }
+  },
+  "dev21": {
+    "admin-svc": "https://dev21-admin-svc.dev.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "https://dev21-api.dev.siq.sleepnumber.com",
+    "apps-svc": "",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "",
+    "csp-api": "https://dev21-csp-api.dev.siq.sleepnumber.com",
+    "csp-portal": "https://dev21-csp.dev.siq.sleepnumber.com",
+    "hazelcast": "",
+    "hd-api": "https://dev21-hd-api.dev.siq.sleepnumber.com",
+    "ops-portal": "https://dev21-ops.dev.siq.sleepnumber.com/bam",
+    "order-api": "https://dev21-order-api.dev.siq.sleepnumber.com",
+    "s3_registry": "",
+    "s3_software": "",
+    "sql": {
+      "sql_database": "",
+      "sql_host": "localhost",
+      "sql_password": "",
+      "sql_port": 1433,
+      "sql_username": "",
+      "ssh_gateway": "",
+      "ssh_tunnel": "",
+      "ssh_username": "xxxxx"
+    }
+  },
+  "dev22": {
+    "admin-svc": "https://dev22-admin-svc.dev.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "https://dev22-api.dev.siq.sleepnumber.com",
+    "apps-svc": "",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "",
+    "csp-api": "https://dev22-csp-api.dev.siq.sleepnumber.com",
+    "csp-portal": "",
+    "hazelcast": "",
+    "hd-api": "https://dev22-hd-api.dev.siq.sleepnumber.com",
+    "ops-portal": "https://dev22-ops.dev.siq.sleepnumber.com/bam",
+    "order-api": "https://dev22-order-api.dev.siq.sleepnumber.com",
+    "s3_registry": "",
+    "s3_software": "",
+    "sql": {
+      "sql_database": "",
+      "sql_host": "localhost",
+      "sql_password": "",
+      "sql_port": 1433,
+      "sql_username": "",
+      "ssh_gateway": "",
+      "ssh_tunnel": "",
+      "ssh_username": "xxxxx"
+    }
+  },
+  "dev23": {
+    "BE-API": "https://dev23-be-api.dev.siq.sleepnumber.com/bam/rest/sn/v1/version",
+    "FE-API": "https://dev23-fe-api.dev.siq.sleepnumber.com/rest/version",
+    "admin-svc": "",
+    "apps-api": "https://dev23-api.dev.siq.sleepnumber.com",
+    "apps-svc": "",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "",
+    "csp-api": "https://dev23-csp-api.dev.siq.sleepnumber.com",
+    "csp-portal": "",
+    "hazelcast": "",
+    "hd-api": "https://dev23-hd-api.dev.siq.sleepnumber.com",
+    "medUI": "https://dev23-be-api.dev.siq.sleepnumber.com/bam/pages/logon.jsp",
+    "ops-portal": "https://dev23-ops.dev.siq.sleepnumber.com/bam",
+    "order-api": "https://dev23-order-api.dev.siq.sleepnumber.com",
+    "s3_registry": "",
+    "s3_software": "",
+    "sql": {
+      "sql_database": "",
+      "sql_host": "localhost",
+      "sql_password": "",
+      "sql_port": 1433,
+      "sql_username": "",
+      "ssh_gateway": "",
+      "ssh_tunnel": "",
+      "ssh_username": "xxxxx"
+    }
+  },
+  "dev24": {
+    "admin-svc": "https://dev24-admin-svc.dev.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "https://dev24-api.dev.siq.sleepnumber.com",
+    "apps-svc": "",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "",
+    "csp-api": "https://dev24-csp-api.dev.siq.sleepnumber.com",
+    "csp-portal": "",
+    "hazelcast": "",
+    "hd-api": "https://dev24-hd-api.dev.siq.sleepnumber.com",
+    "ops-portal": "https://dev24-ops.dev.siq.sleepnumber.com/bam",
+    "order-api": "https://dev24-order-api.dev.siq.sleepnumber.com",
+    "s3_registry": "",
+    "s3_software": "",
+    "sql": {
+      "sql_database": "",
+      "sql_host": "localhost",
+      "sql_password": "",
+      "sql_port": 1433,
+      "sql_username": "",
+      "ssh_gateway": "",
+      "ssh_tunnel": "",
+      "ssh_username": "xxxxx"
+    }
+  },
+  "genie1": {
+    "admin-svc": "https://genie1-be-api.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "",
+    "apps-svc": "",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "",
+    "csp-api": "",
+    "csp-portal": "",
+    "hazelcast": "",
+    "hd-api": "",
+    "ops-portal": "",
+    "order-api": "",
+    "s3_registry": "",
+    "s3_software": "",
+    "sql": {
+      "sql_database": "",
+      "sql_host": "localhost",
+      "sql_password": "",
+      "sql_port": 1433,
+      "sql_username": "",
+      "ssh_gateway": "",
+      "ssh_tunnel": "",
+      "ssh_username": "xxxxx"
+    }
+  },
+  "iq1": {
+    "admin-api": "https://iq1-admin-api.iq.siq.sleepnumber.com/rest/version",
+    "admin-svc": "https://iq1-admin-svc.iq.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "https://iq1-api.iq.siq.sleepnumber.com/rest",
+    "apps-svc": "https://iq1-apps-svc.iq.siq.sleepnumber.com/bam/rest/sn/v1",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "http://iq1-oc.iq.siq.sleepnumber.com:8888/opscenter/index.html",
+    "csp-api": "https://iq1-csp-api.iq.siq.sleepnumber.com/rest",
+    "csp-portal": "",
+    "hazelcast": "http://iq1-mc.iq.siq.sleepnumber.com/mancenter/login.html",
+    "hd-api": "https://iq1-hd-api.iq.siq.sleepnumber.com/rest",
+    "ops-portal": "https://iq1-ops.iq.siq.sleepnumber.com/bam/pages/logon.jsp",
+    "order-api": "https://iq1-order-api.iq.siq.sleepnumber.com/rest",
+    "s3_registry": "",
+    "s3_software": "",
+    "sql": {
+      "sql_database": "",
+      "sql_host": "localhost",
+      "sql_password": "",
+      "sql_port": 1433,
+      "sql_username": "",
+      "ssh_gateway": "",
+      "ssh_tunnel": "",
+      "ssh_username": "xxxxx"
+    },
+    "ui": "https://iq1-ui.iq.siq.sleepnumber.com",
+    "ui-short": "https://iq1.siq.sleepnumber.com"
+  },
+  "prod": {
+    "admin-svc": "https://prod-admin-svc.sleepiq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "https://prod-api.sleepiq.sleepnumber.com",
+    "apps-svc": "https://prod-apps-svc.sleepiq.sleepnumber.com/bam/rest/sn/v1",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "http://prod-oc.sleepiq.sleepnumber.com:8888/opscenter",
+    "csp-api": "https://prod-csp-api.sleepiq.sleepnumber.com",
+    "csp-portal": "https://prod-csp.sleepiq.sleepnumber.com",
+    "hazelcast": "http://prod-mc.sleepiq.sleepnumber.com/mancenter/login.jsp",
+    "hd-api": "https://prod-hd-api.sleepiq.sleepnumber.com",
+    "ops-portal": "https://prod-ops.sleepiq.sleepnumber.com/bam",
+    "order-api": "https://prod-order-api.sleepiq.sleepnumber.com",
+    "s3_registry": "zepp-prod-vpc/prod/device-registry",
+    "s3_software": "bamsvc-vpcprod-device-software",
+    "sql": {
+      "connectionURL": "jdbc:sqlserver://prod2-rds.cuogujxotnhk.us-east-1.rds.amazonaws.com:1433",
+      "sql_database": "bam",
+      "sql_host": "localhost",
+      "sql_password": "xxxxx",
+      "sql_port": 1433,
+      "sql_username": "bam",
+      "ssh_gateway": "prod-ssh",
+      "ssh_tunnel": "prod-sql",
+      "ssh_username": "xxxxx"
+    }
+  },
+  "qa21": {
+    "admin-svc": "https://qa21-admin-svc.dev.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "https://qa21-api.dev.siq.sleepnumber.com",
+    "apps-svc": "",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "",
+    "csp-api": "https://qa21-csp-api.dev.siq.sleepnumber.com",
+    "csp-portal": "",
+    "hazelcast": "",
+    "hd-api": "https://qa21-hd-api.dev.siq.sleepnumber.com",
+    "ops-portal": "https://qa21-ops.dev.siq.sleepnumber.com/bam",
+    "order-api": "https://qa21-order-api.dev.siq.sleepnumber.com",
+    "s3_registry": "",
+    "s3_software": "",
+    "sql": {
+      "sql_database": "",
+      "sql_host": "localhost",
+      "sql_password": "",
+      "sql_port": 1433,
+      "sql_username": "",
+      "ssh_gateway": "",
+      "ssh_tunnel": "",
+      "ssh_username": "xxxxx"
+    }
+  },
+  "qa22": {
+    "admin-svc": "https://qa22-admin-svc.dev.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "https://qa22-api.dev.siq.sleepnumber.com",
+    "apps-svc": "https://qa22-apps-svc.dev.siq.sleepnumber.com/bam/rest/sn/v1",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "",
+    "csp-api": "https://qa22-csp-api.dev.siq.sleepnumber.com",
+    "csp-portal": "",
+    "hazelcast": "",
+    "hd-api": "https://qa22-hd-api.dev.siq.sleepnumber.com",
+    "listing": "https://qa22-apps-svc.dev.siq.sleepnumber.com/bam/rest/sn/v1/r3s0urc/listing",
+    "ops-portal": "https://qa22-ops.dev.siq.sleepnumber.com/bam",
+    "order-api": "https://qa22-order-api.dev.siq.sleepnumber.com",
+    "s3_registry": "",
+    "s3_software": "",
+    "sql": {
+      "sql_database": "",
+      "sql_host": "localhost",
+      "sql_password": "",
+      "sql_port": 1433,
+      "sql_username": "",
+      "ssh_gateway": "",
+      "ssh_tunnel": "",
+      "ssh_username": "xxxxx"
+    }
+  },
+  "qa23": {
+    "admin-svc": "https://qa23-admin-svc.dev.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "https://qa23-api.dev.siq.sleepnumber.com",
+    "apps-svc": "https://qa23-apps-svc.dev.siq.sleepnumber.com/bam/rest/sn/v1",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "",
+    "csp-api": "https://qa23-csp-api.dev.siq.sleepnumber.com",
+    "csp-portal": "",
+    "hazelcast": "",
+    "hd-api": "https://qa23-hd-api.dev.siq.sleepnumber.com",
+    "ops-portal": "https://qa23-ops.dev.siq.sleepnumber.com/bam",
+    "order-api": "https://qa23-order-api.dev.siq.sleepnumber.com",
+    "s3_registry": "",
+    "s3_software": "",
+    "sql": {
+      "sql_database": "",
+      "sql_host": "localhost",
+      "sql_password": "",
+      "sql_port": 1433,
+      "sql_username": "",
+      "ssh_gateway": "",
+      "ssh_tunnel": "",
+      "ssh_username": "xxxxx"
+    }
+  },
+  "stage": {
+    "admin-svc": "https://stage-admin-svc.stage.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "https://stage-api.stage.siq.sleepnumber.com",
+    "apps-svc": "https://stage-apps-svc.stage.siq.sleepnumber.com/bam/rest/sn/v1",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "",
+    "csp-api": "https://stage- 2csp-api.stage.siq.sleepnumber.com",
+    "csp-portal": "",
+    "hazelcast": "",
+    "hd-api": "https://stage-hd-api.stage.siq.sleepnumber.com",
+    "ops-portal": "https://stage-ops.stage.siq.sleepnumber.com/bam",
+    "order-api": "https://stage-order-api.stage.siq.sleepnumber.com",
+    "s3_registry": "sc-corp-stage-vpc/stage/device-registry",
+    "s3_software": "bamsvc-stage-device-software",
+    "sql": {
+      "sql_database": "bam",
+      "sql_host": "localhost",
+      "sql_password": "xxxxx",
+      "sql_port": 1433,
+      "sql_username": "bam",
+      "ssh_gateway": "stage-ssh",
+      "ssh_tunnel": "stage-sql",
+      "ssh_username": "xxxxx"
+    }
+  },
+  "test": {
+    "admin-svc": "https://test-admin-svc.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "https://test-hd-api.test.siq.sleepnumber.com",
+    "apps-svc": "https://test-apps-svc.siq.sleepnumber.com/bam/rest/sn/v1",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "",
+    "csp-api": "https://test-csp.test.siq.sleepnumber.com",
+    "csp-portal": "",
+    "hazelcast": "",
+    "hd-api": "https://test-csp-api.test.siq.sleepnumber.com",
+    "ops-portal": "https://test-ops.test.siq.sleepnumber.com/bam",
+    "order-api": "https://test-order-api.test.siq.sleepnumber.com",
+    "s3_registry": "sc-corp-test-vpc/test/device-registry",
+    "s3_software": "bamsvc-firefly-test-device-software",
+    "sql": {
+      "sql_database": "bam",
+      "sql_host": "localhost",
+      "sql_password": "test-rds",
+      "sql_port": 1433,
+      "sql_username": "test",
+      "ssh_gateway": "test-ssh",
+      "ssh_tunnel": "test-sql",
+      "ssh_username": "xxxxx"
+    }
+  },
+  "ux": {
+    "admin-svc": "https://ux-admin-svc.ux.siq.sleepnumber.com/bam/rest/sn/v1",
+    "apps-api": "https://ux-api.ux.siq.sleepnumber.com/rest",
+    "apps-svc": "https://ux-apps-svc.ux.siq.sleepnumber.com/bam/rest/sn/v1",
+    "backoffice": {
+      "password": "xxxxx",
+      "username": "xxxxx"
+    },
+    "cassandra": "http://ux-oc.ux.siq.sleepnumber.com:8888/opscenter/index.html",
+    "csp-api": "https://ux-order-csp.ux.siq.sleepnumber.com/rest",
+    "csp-portal": "",
+    "hazelcast": "http://ux-mc.ux.siq.sleepnumber.com/mancenter/login.html",
+    "hd-api": "https://ux-hd-api.ux.siq.sleepnumber.com/rest",
+    "ops-portal": "https://ux-ops.ux.siq.sleepnumber.com/bam/pages/logon.jsp",
+    "order-api": "https://ux-order-api.ux.siq.sleepnumber.com/rest",
+    "s3_registry": "sc-corp-ux-vpc/ux/device-registry",
+    "s3_software": "bamsvc-ux-device-software",
+    "sql": {
+      "sql_database": "ux",
+      "sql_host": "localhost",
+      "sql_password": "ux-rds01",
+      "sql_port": 1433,
+      "sql_username": "ux",
+      "ssh_gateway": "ux-ssh",
+      "ssh_tunnel": "ux-sql",
+      "ssh_username": "xxxxx"
+    },
+    "ui": "https://ux-ui.ux.siq.sleepnumber.com",
+    "ui-short": "https://ux.siq.sleepnumber.com"
+  }
+}

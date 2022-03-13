@@ -1,0 +1,8 @@
+# SVN Username, Real Name, Email
+bam_alexander, Alex Norell, alex.norell@sleepiqlabs.com
+bam_kevin, Kevin Blomseth, kevin@sleepiqlabs.com
+bam_dhruv, Dhruv Kakadiya, dhruv@sleepiqlabs.com
+bam_alex, Alex Cheng, alex@sleepiqlabs.com
+bam_jonathan, Jonathan Crockett, jonathan@sleepiqlabs.com
+﻿jmpdude, Mike Puckett, mike@sleepiqlabs.com
+bam_boris, Boris Khasin, boris@sleepiqlabs.com

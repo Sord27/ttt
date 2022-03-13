@@ -1,0 +1,1 @@
+This command allows the user to associate a text string with Outlet 0

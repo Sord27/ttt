@@ -1,0 +1,729 @@
+{
+    "TAG_END_OF_LIST": {
+        "name": "TAG_END_OF_LIST",
+        "tag": 0,
+        "data_type": "long",
+        "description": "end of tag list"
+    },
+    "TAG_PATIENT_SIDE": {
+        "name": "TAG_PATIENT_SIDE",
+        "tag": 10,
+        "data_type": "long",
+        "description": "users count in file"
+    },
+    "TAG_DEVICE_CONFIG": {
+        "name": "TAG_DEVICE_CONFIG",
+        "tag": 100,
+        "data_type": "short",
+        "description": "device configuration aka 1 pad two sensors, 1 pad 1 sensor etc..."
+    },
+    "TAG_START_TIME": {
+        "name": "TAG_START_TIME",
+        "tag": 101,
+        "data_type": "long long",
+        "description": "start time of the file"
+    },
+    "TAG_END_TIME": {
+        "name": "TAG_END_TIME",
+        "tag": 102,
+        "data_type": "long long",
+        "description": "end time stamp of the file"
+    },
+    "TAG_USER_ID": {
+        "name": "TAG_USER_ID",
+        "tag": 103,
+        "data_type": "long long",
+        "description": "User id associated with this file."
+    },
+    "TAG_IS_COMPRESSED": {
+        "name": "TAG_IS_COMPRESSED",
+        "tag": 104,
+        "description": "byte 1 means compression on 0 means no compression. header have been retired :)"
+    },
+    "TAG_DEVICE_ID": {
+        "name": "TAG_DEVICE_ID",
+        "tag": 200,
+        "data_type": "long long",
+        "description": "mac address"
+    },
+    "TAG_GMT_TIME": {
+        "name": "TAG_GMT_TIME",
+        "tag": 201,
+        "data_type": "long long",
+        "description": "GMT time"
+    },
+    "TAG_TIME_ZONE": {
+        "name": "TAG_TIME_ZONE",
+        "tag": 202,
+        "data_type": "char[]",
+        "description": "time zone string"
+    },
+    "TAG_VPN_IP": {
+        "name": "TAG_VPN_IP",
+        "tag": 203,
+        "data_type": "short[4]",
+        "description": "vpn ip"
+    },
+    "TAG_HARDWARE_VER": {
+        "name": "TAG_HARDWARE_VER",
+        "tag": 204,
+        "data_type": "int",
+        "description": "hardware version"
+    },
+    "TAG_EEPROM": {
+        "name": "TAG_EEPROM",
+        "tag": 205,
+        "data_type": "char[1024]",
+        "description": "eeprom data"
+    },
+    "TAG_SOFTWARE_VER": {
+        "name": "TAG_SOFTWARE_VER",
+        "tag": 206,
+        "data_type": "char[]",
+        "description": "software version string"
+    },
+    "TAG_DEVICE_COMMAND": {
+        "name": "TAG_DEVICE_COMMAND",
+        "tag": 207,
+        "data_type": "long",
+        "description": "device command via cgi / what button was pressed on device"
+    },
+    "TAG_A2D_N_CHANNELS": {
+        "name": "TAG_A2D_N_CHANNELS",
+        "tag": 300,
+        "data_type": "int",
+        "description": "number of a/d channe"
+    },
+    "TAG_A2D_SAMPLES_CH": {
+        "name": "TAG_A2D_SAMPLES_CH",
+        "tag": 301,
+        "data_type": "int",
+        "description": "channel samples per second"
+    },
+    "TAG_A2D_SAMPLE_PERIOD": {
+        "name": "TAG_A2D_SAMPLE_PERIOD",
+        "tag": 302,
+        "data_type": "int",
+        "description": "number of seconds worth of d"
+    },
+    "TAG_A2D_CH0": {
+        "name": "TAG_A2D_CH0",
+        "tag": 303,
+        "data_type": "int[]",
+        "description": "a2d ch0 data"
+    },
+    "TAG_A2D_CH1": {
+        "name": "TAG_A2D_CH1",
+        "tag": 304,
+        "data_type": "int[]",
+        "description": "a2d ch1 data"
+    },
+    "TAG_A2D_CH2": {
+        "name": "TAG_A2D_CH2",
+        "tag": 305,
+        "data_type": "int[]",
+        "description": "a2d ch2 data"
+    },
+    "TAG_A2D_CH3": {
+        "name": "TAG_A2D_CH3",
+        "tag": 306,
+        "data_type": "int[]",
+        "description": "a2d ch3 data"
+    },
+    "TAG_A2D_CH4": {
+        "name": "TAG_A2D_CH4",
+        "tag": 307,
+        "data_type": "int[]",
+        "description": "a2d ch0 data"
+    },
+    "TAG_A2D_CH5": {
+        "name": "TAG_A2D_CH5",
+        "tag": 308,
+        "data_type": "int[]",
+        "description": "a2d ch1 data"
+    },
+    "TAG_A2D_CH6": {
+        "name": "TAG_A2D_CH6",
+        "tag": 309,
+        "data_type": "int[]",
+        "description": "a2d ch2 data"
+    },
+    "TAG_A2D_CH7": {
+        "name": "TAG_A2D_CH7",
+        "tag": 310,
+        "data_type": "int[]",
+        "description": "a2d ch3 data"
+    },
+    "TAG_RAW_STRAP_HR": {
+        "name": "TAG_RAW_STRAP_HR",
+        "tag": 311,
+        "data_type": "int[]",
+        "description": "raw HR strap"
+    },
+    "TAG_A2D_CH_DATA_32": {
+        "name": "TAG_A2D_CH_DATA_32",
+        "tag": 312
+    },
+    "TAG_A2D_CH_DATA_16": {
+        "name": "TAG_A2D_CH_DATA_16",
+        "tag": 313
+    },
+    "TAG_A2D_SENSOR_ALERT": {
+        "name": "TAG_A2D_SENSOR_ALERT",
+        "tag": 314,
+        "description": "u32 device serial numbe"
+    },
+    "TAG_A2D_SENSOR_NULL": {
+        "name": "TAG_A2D_SENSOR_NULL",
+        "tag": 315,
+        "description": "No sensor connected. No Pay load."
+    },
+    "TAG_XPORT_DATA": {
+        "name": "TAG_XPORT_DATA",
+        "tag": 317,
+        "description": "Data"
+    },
+    "TAG_A2D_USB_RAW": {
+        "name": "TAG_A2D_USB_RAW",
+        "tag": 318,
+        "data_type": "USB Raw",
+        "description": "Sends raw USB data for the 1k sampling rate. No longer used"
+    },
+    "TAG_XPORT_DATA_USB_RAW": {
+        "name": "TAG_XPORT_DATA_USB_RAW",
+        "tag": 319,
+        "data_type": "USB Raw 1k Data",
+        "description": "Sends raw USB data for the 1k sampling rate"
+    },
+    "TAG_D2A_CHICKEN_HEART": {
+        "name": "TAG_D2A_CHICKEN_HEART",
+        "tag": 320,
+        "description": "Chicken heart for synching with external systems like SandM"
+    },
+    "TAG_XPORT_RAW_DATA": {
+        "name": "TAG_XPORT_RAW_DATA",
+        "tag": 321,
+        "description": "This is exactly the same as TAG_XPORT_USB_RAW but does not cause test to crash."
+    },
+    "TAG_XPORT_DSP_REPORT": {
+        "name": "TAG_XPORT_DSP_REPORT",
+        "tag": 322,
+        "description": "This sends back an array of 10 of the following struct. One report for every sec of d"
+    },
+    "TAG_ACCEL_XYZ": {
+        "name": "TAG_ACCEL_XYZ",
+        "tag": 323,
+        "description": "Accelerometer data. An array of ints representing 3 10 bit values x,y,z"
+    },
+    "TAG_SENSOR_VERSION": {
+        "name": "TAG_SENSOR_VERSION",
+        "tag": 324,
+        "description": "Sensor version based on strapping options."
+    },
+    "TAG_ACCEL_XYZ_DF": {
+        "name": "TAG_ACCEL_XYZ_DF",
+        "tag": 325,
+        "description": "Accelerometer data. An array of ints representing 3 10 bit values x,y,z compressed with DFCompre"
+    },
+    "TAG_A2D_CH_DATA_32_DF": {
+        "name": "TAG_A2D_CH_DATA_32_DF",
+        "tag": 326,
+        "description": "Pressure raw data only with DFCompre"
+    },
+    "TAG_XPORT_RAW_DATA_HEADER": {
+        "name": "TAG_XPORT_RAW_DATA_HEADER",
+        "tag": 327,
+        "description": "xport header info (doesn't contain actual raw pressure data)"
+    },
+    "TAG_SENSOR_OOB_DATA": {
+        "name": "TAG_SENSOR_OOB_DATA",
+        "tag": 328,
+        "description": "sensor oob data"
+    },
+    "TAG_SENSOR_FLAGS_DISABLED": {
+        "name": "TAG_SENSOR_FLAGS_DISABLED",
+        "tag": 329,
+        "description": "no runtime sensor flags enabled"
+    },
+    "TAG_RUNTIME_FLAGS": {
+        "name": "TAG_RUNTIME_FLAGS",
+        "tag": 330,
+        "description": "current runtime flags"
+    },
+    "TAG_SENSOR_SER_NO": {
+        "name": "TAG_SENSOR_SER_NO",
+        "tag": 331,
+        "description": "sensor serial number"
+    },
+    "TAG_SENSOR_VERSION_2": {
+        "name": "TAG_SENSOR_VERSION_2",
+        "tag": 332,
+        "description": "Sensor version based on strapping options."
+    },
+    "TAG_PUMP_STATUS": {
+        "name": "TAG_PUMP_STATUS",
+        "tag": 333,
+        "description": "Pump status on/off"
+    },
+    "TAG_WIFI_SETTINGS": {
+        "name": "TAG_WIFI_SETTINGS",
+        "tag": 334,
+        "description": "WIFI Setup"
+    },
+    "TAG_ALGO_INIT": {
+        "name": "TAG_ALGO_INIT",
+        "tag": 335,
+        "description": "Algo init happened"
+    },
+    "TAG_REQUEST_PRIVACY": {
+        "name": "TAG_REQUEST_PRIVACY",
+        "tag": 336,
+        "description": "Prevent storing of bio data on the server"
+    },
+    "TAG_A2D_OFFSET": {
+        "name": "TAG_A2D_OFFSET",
+        "tag": 337,
+        "description": "Pump Calibration A2D offset"
+    },
+    "TAG_TELL_PRIVACY": {
+        "name": "TAG_TELL_PRIVACY",
+        "tag": 338,
+        "description": "device mode on"
+    },
+    "TAG_XPORT_DSP_REPORT_2": {
+        "name": "TAG_XPORT_DSP_REPORT_2",
+        "tag": 339,
+        "description": "This sends back an array of 10 of the following struct. One report for every sec of d"
+    },
+    "TAG_ALGO_VERSION": {
+        "name": "TAG_ALGO_VERSION",
+        "tag": 340,
+        "description": "Algo version happened"
+    },
+    "TAG_PUMP_STATUS_2": {
+        "name": "TAG_PUMP_STATUS_2",
+        "tag": 341,
+        "description": "Pump status with head/foot angle"
+    },
+    "TAG_INFO_FOR_ALGO": {
+        "name": "TAG_INFO_FOR_ALGO",
+        "tag": 342,
+        "description": "Input params from device to algo"
+    },
+    "TAG_BIOMETRICS": {
+        "name": "TAG_BIOMETRICS",
+        "tag": 343,
+        "description": "write HR,RR,FOM to rawdataFile"
+    },
+    "TAG_XPORT_NSEC_DSP_REPORT": {
+        "name": "TAG_XPORT_NSEC_DSP_REPORT",
+        "tag": 344,
+        "description": "This sends an Aggregated data from device"
+    },
+    "TAG_XPORT_DSP_REPORT_4": {
+        "name": "TAG_XPORT_DSP_REPORT_4",
+        "tag": 345,
+        "description": "This sends the dsp data structure for 360"
+    },
+    "TAG_DSP_SEQ_NUM": {
+        "name": "TAG_DSP_SEQ_NUM",
+        "tag": 346,
+        "description": "This stores dsp sequence number"
+    },
+    "TAG_RAWDATA_SEQ_NUM": {
+        "name": "TAG_RAWDATA_SEQ_NUM",
+        "tag": 347,
+        "description": "This stores raw data sequence number"
+    },
+    "TAG_RDP_SEQ_NUM": {
+        "name": "TAG_RDP_SEQ_NUM",
+        "tag": 348,
+        "description": "This stores raw data packet sequence number"
+    },
+    "TAG_RDP_VERSION": {
+        "name": "TAG_RDP_VERSION",
+        "tag": 349,
+        "description": "This stores raw data packet version number"
+    },
+    "TAG_DSP_TIMESTAMP": {
+        "name": "TAG_DSP_TIMESTAMP",
+        "tag": 350,
+        "description": "This stores dsp time stamp"
+    },
+    "TAG_RAWDATA_TIMESTAMP": {
+        "name": "TAG_RAWDATA_TIMESTAMP",
+        "tag": 351,
+        "description": "This stores raw data time stamp"
+    },
+    "TAG_PREFERENCES_ACK": {
+        "name": "TAG_PREFERENCES_ACK",
+        "tag": 352,
+        "description": "Device acks received preferences with this tag"
+    },
+    "TAG_SMART_ALARM": {
+        "name": "TAG_SMART_ALARM",
+        "tag": 353,
+        "description": "Device acks received preferences with this tag"
+    },
+    "TAG_RAW_AUDIO_DATA": {
+        "name": "TAG_RAW_AUDIO_DATA",
+        "tag": 354,
+        "description": "Raw audio data header"
+    },
+    "TAG_XPORT_RAW_DATA_FOOTER": {
+        "name": "TAG_XPORT_RAW_DATA_FOOTER",
+        "tag": 355,
+        "data_type": "Generic Tag to send rawdata sending related data",
+        "description": "includes SmartAlarmCountDow"
+    },
+    "TAG_SNORE_DO": {
+        "name": "TAG_SNORE_DO",
+        "tag": 356,
+        "description": "Device Tag for articulation"
+    },
+    "TAG_HRV": {
+        "name": "TAG_HRV",
+        "tag": 358,
+        "description": "Heart rate variability information"
+    },
+    "TAG_BED_THERMAL_SETTINGS": {
+        "name": "TAG_BED_THERMAL_SETTINGS",
+        "tag": 360,
+        "description": "Bed Thermal settings"
+    },
+    "TAG_A2D_STATS_RX_FULL": {
+        "name": "TAG_A2D_STATS_RX_FULL",
+        "tag": 400,
+        "data_type": "int",
+        "description": "st_rx_full"
+    },
+    "TAG_A2D_STATS_RX_OVRS": {
+        "name": "TAG_A2D_STATS_RX_OVRS",
+        "tag": 401,
+        "data_type": "int",
+        "description": "st_rx_ovrs"
+    },
+    "TAG_A2D_STATS_RX_SECS": {
+        "name": "TAG_A2D_STATS_RX_SECS",
+        "tag": 402,
+        "data_type": "int",
+        "description": "st_rx_sec"
+    },
+    "TAG_A2D_STATS_BUF_OVRS": {
+        "name": "TAG_A2D_STATS_BUF_OVRS",
+        "tag": 403,
+        "data_type": "int",
+        "description": "st_buf_ovrs"
+    },
+    "TAG_A2D_STATS_INTRS_SEC": {
+        "name": "TAG_A2D_STATS_INTRS_SEC",
+        "tag": 404,
+        "data_type": "int",
+        "description": "st_intrs_sec"
+    },
+    "TAG_A2D_STATS_ERR_LAST": {
+        "name": "TAG_A2D_STATS_ERR_LAST",
+        "tag": 405,
+        "data_type": "int",
+        "description": "st_error_last"
+    },
+    "TAG_A2D_STATS_RX_RANGE": {
+        "name": "TAG_A2D_STATS_RX_RANGE",
+        "tag": 406,
+        "data_type": "int",
+        "description": "st_rx_range;"
+    },
+    "TAG_SHM_STATS_BAMID_PID": {
+        "name": "TAG_SHM_STATS_BAMID_PID",
+        "tag": 500,
+        "data_type": "int",
+        "description": "bamid pid"
+    },
+    "TAG_SHM_STATS_BAMID_TIME": {
+        "name": "TAG_SHM_STATS_BAMID_TIME",
+        "tag": 501,
+        "data_type": "int",
+        "description": "bamid time"
+    },
+    "TAG_SHM_STATS_BAMOD_PID": {
+        "name": "TAG_SHM_STATS_BAMOD_PID",
+        "tag": 502,
+        "data_type": "int",
+        "description": "bamod pid"
+    },
+    "TAG_SHM_STATS_BAMOD_TIME": {
+        "name": "TAG_SHM_STATS_BAMOD_TIME",
+        "tag": 503,
+        "data_type": "int",
+        "description": "bamod time"
+    },
+    "TAG_SHM_STATS_SHM_QLEN": {
+        "name": "TAG_SHM_STATS_SHM_QLEN",
+        "tag": 504,
+        "data_type": "int",
+        "description": "shm queue len"
+    },
+    "TAG_SHM_STATS_MMAP_QLEN": {
+        "name": "TAG_SHM_STATS_MMAP_QLEN",
+        "tag": 505,
+        "data_type": "int",
+        "description": "mmap queue le"
+    },
+    "TAG_SHM_STATS_A2D_DATA": {
+        "name": "TAG_SHM_STATS_A2D_DATA",
+        "tag": 506,
+        "data_type": "int",
+        "description": "last rx word from a/d"
+    },
+    "TAG_SHM_STATS_PKT_LOST": {
+        "name": "TAG_SHM_STATS_PKT_LOST",
+        "tag": 507,
+        "data_type": "int",
+        "description": "packet loss, queue"
+    },
+    "TAG_IW_STATS_QUAL": {
+        "name": "TAG_IW_STATS_QUAL",
+        "tag": 600,
+        "data_type": "u8[4]",
+        "description": "qual, level, noise, updated"
+    },
+    "TAG_IW_STATS_DISCARDED": {
+        "name": "TAG_IW_STATS_DISCARDED",
+        "tag": 601,
+        "data_type": "u32[5]",
+        "description": "see iw_discarded"
+    },
+    "TAG_IW_STATS_MISSED": {
+        "name": "TAG_IW_STATS_MISSED",
+        "tag": 602,
+        "data_type": "u32",
+        "description": "missed beacons"
+    },
+    "TAG_WIFI_STATUS": {
+        "name": "TAG_WIFI_STATUS",
+        "tag": 603,
+        "description": "Wifi stats replaces TAG_IW_STATS_QUAL"
+    },
+    "TAG_HTTPC_STATS_RESPONSE_MS": {
+        "name": "TAG_HTTPC_STATS_RESPONSE_MS",
+        "tag": 700,
+        "data_type": "u32[2]",
+        "description": "response ms, connection time"
+    },
+    "TAG_HTTPC_STATS_CONN_TIMEOUTS": {
+        "name": "TAG_HTTPC_STATS_CONN_TIMEOUTS",
+        "tag": 701,
+        "data_type": "u32[2]",
+        "description": "response ms, connection time"
+    },
+    "TAG_TEST_DONT_STORE_DATA_IN_DB": {
+        "name": "TAG_TEST_DONT_STORE_DATA_IN_DB",
+        "tag": 800,
+        "description": "Tells the server not to store the re"
+    },
+    "TAG_TEST_DONT_STORE_DATA_IN_FILE": {
+        "name": "TAG_TEST_DONT_STORE_DATA_IN_FILE",
+        "tag": 801,
+        "description": "Tells the server not to store the re"
+    },
+    "TAG_AVG_RAW_DATA": {
+        "name": "TAG_AVG_RAW_DATA",
+        "tag": 802,
+        "description": "1sec avg of the 1k data to help with plotting and debug"
+    },
+    "TAG_LAST_PACKET_POSITION": {
+        "name": "TAG_LAST_PACKET_POSITION",
+        "tag": 803,
+        "description": "The last packet in the raw file"
+    },
+    "TAG_AUDIO_RAW_DATA": {
+        "name": "TAG_AUDIO_RAW_DATA",
+        "tag": 804
+    },
+    "TAG_EVENT": {
+        "name": "TAG_EVENT",
+        "tag": 804,
+        "description": "Event Log"
+    },
+    "TAG_EVENT_2": {
+        "name": "TAG_EVENT_2",
+        "tag": 805,
+        "description": "Event Log"
+    },
+    "TAG_HEADER_ALGO_VERSION": {
+        "name": "TAG_HEADER_ALGO_VERSION",
+        "tag": 806,
+        "description": "Algo Version"
+    },
+    "TAG_HEADER_ALGO_RUNNINGON": {
+        "name": "TAG_HEADER_ALGO_RUNNINGON",
+        "tag": 807,
+        "description": "Algo running on device/server"
+    },
+    "TAG_HEADER_ATM_PRESSURE_OFFSET": {
+        "name": "TAG_HEADER_ATM_PRESSURE_OFFSET",
+        "tag": 808,
+        "description": "Atm pressure offset"
+    },
+    "TAG_HEADER_INFO_FOR_ALGO": {
+        "name": "TAG_HEADER_INFO_FOR_ALGO",
+        "tag": 809,
+        "description": "Info for algo"
+    },
+    "TAG_PROCESSED_PRESENCE": {
+        "name": "TAG_PROCESSED_PRESENCE",
+        "tag": 900
+    },
+    "TAG_PROCESSED_AVG_THRESHOLD_DATA": {
+        "name": "TAG_PROCESSED_AVG_THRESHOLD_DATA",
+        "tag": 901
+    },
+    "TAG_PROCESSED_PAD_ANGLE": {
+        "name": "TAG_PROCESSED_PAD_ANGLE",
+        "tag": 902
+    },
+    "TAG_PROCESSED_CARDIAC_SIGNAL_FILTERED": {
+        "name": "TAG_PROCESSED_CARDIAC_SIGNAL_FILTERED",
+        "tag": 903
+    },
+    "TAG_PROCESSED_CARDIAC_BEATS": {
+        "name": "TAG_PROCESSED_CARDIAC_BEATS",
+        "tag": 904
+    },
+    "TAG_PROCESSED_RESPIRATORY_SIGNAL_FILTERED": {
+        "name": "TAG_PROCESSED_RESPIRATORY_SIGNAL_FILTERED",
+        "tag": 905
+    },
+    "TAG_PROCESSED_RESPIRATORY_BEATS": {
+        "name": "TAG_PROCESSED_RESPIRATORY_BEATS",
+        "tag": 906
+    },
+    "TAG_PROCESSED_DRIFT": {
+        "name": "TAG_PROCESSED_DRIFT",
+        "tag": 907
+    },
+    "TAG_PROCESSED_SNR": {
+        "name": "TAG_PROCESSED_SNR",
+        "tag": 908
+    },
+    "TAG_PROCESSED_DATA": {
+        "name": "TAG_PROCESSED_DATA",
+        "tag": 909
+    },
+    "TAG_PROCESSED_ALERT": {
+        "name": "TAG_PROCESSED_ALERT",
+        "tag": 910
+    },
+    "TAG_OUT_BYEDGEDETECT": {
+        "name": "TAG_OUT_BYEDGEDETECT",
+        "tag": 911
+    },
+    "TAG_ALL_FFT_POWER": {
+        "name": "TAG_ALL_FFT_POWER",
+        "tag": 912
+    },
+    "TAG_ACK_SEQNUM": {
+        "name": "TAG_ACK_SEQNUM",
+        "tag": 1000
+    },
+    "TAG_CMD_CALIBRATE": {
+        "name": "TAG_CMD_CALIBRATE",
+        "tag": 720,
+        "description": "calibrate (old cmd 1)"
+    },
+    "TAG_CMD_CONFIG": {
+        "name": "TAG_CMD_CONFIG",
+        "tag": 721,
+        "description": "config (old cmd 8)"
+    },
+    "TAG_CMD_REBOOT": {
+        "name": "TAG_CMD_REBOOT",
+        "tag": 722,
+        "description": "like turning power off/on (corresponds to cmd_restart)"
+    },
+    "TAG_CMD_RECONNECT": {
+        "name": "TAG_CMD_RECONNECT",
+        "tag": 724,
+        "description": "disconnects from server, starts again from requestConne"
+    },
+    "TAG_CMD_RELOAD": {
+        "name": "TAG_CMD_RELOAD",
+        "tag": 723,
+        "description": "retrieves latest from server (corresponds to cmd_updateSoftware)"
+    },
+    "TAG_CMD_RPC": {
+        "name": "TAG_CMD_RPC",
+        "tag": 725,
+        "description": "rpc (old cmd 6)"
+    },
+    "TAG_CMD_ALGO_PARAMS": {
+        "name": "TAG_CMD_ALGO_PARAMS",
+        "tag": 726,
+        "description": "Sending algo paramete"
+    },
+    "TAG_CMD_GET_ALGO_PARAMS": {
+        "name": "TAG_CMD_GET_ALGO_PARAMS",
+        "tag": 727,
+        "description": "Requesting algo paramete"
+    },
+    "TAG_CMD_RUNTIME_PARAMS": {
+        "name": "TAG_CMD_RUNTIME_PARAMS",
+        "tag": 728,
+        "description": "Runtime params for the alg"
+    },
+    "TAG_FLUSH_DATA": {
+        "name": "TAG_FLUSH_DATA",
+        "tag": 729,
+        "description": "flush all data queues on the device"
+    },
+    "TAG_CMD_REST_ALGO_PARAMS": {
+        "name": "TAG_CMD_REST_ALGO_PARAMS",
+        "tag": 730,
+        "description": "Rest algo params"
+    },
+    "TAG_SLEEP_DATA": {
+        "name": "TAG_SLEEP_DATA",
+        "tag": 731,
+        "description": "Sleep info sent to device"
+    },
+    "TAG_FLOW_CEILING": {
+        "name": "TAG_FLOW_CEILING",
+        "tag": 732,
+        "description": "change flow ceiling"
+    },
+    "TAG_SLEEPER_INFO": {
+        "name": "TAG_SLEEPER_INFO",
+        "tag": 733,
+        "description": "sleeper info from server to device"
+    },
+    "TAG_DEVICE_PREFERENCES": {
+        "name": "TAG_DEVICE_PREFERENCES",
+        "tag": 734,
+        "description": "sleeper info from server to device"
+    },
+    "TAG_SNORE_ACTIVATION": {
+        "name": "TAG_SNORE_ACTIVATION",
+        "tag": 735,
+        "description": "Tag that determinate snore preference for each sleeper"
+    },
+    "TAG_SNORE_PREFERENCES": {
+        "name": "TAG_SNORE_PREFERENCES",
+        "tag": 736,
+        "description": "Snore activation tag"
+    },
+    "TAG_SNORE_DSP_DATA": {
+        "name": "TAG_SNORE_DSP_DATA",
+        "tag": 737,
+        "description": "Tag for write the snore data from the DSP report"
+    },
+    "TAG_SNORE_AUDIO_DATA": {
+        "name": "TAG_SNORE_AUDIO_DATA",
+        "tag": 738,
+        "description": "Tag that send audio data"
+    },
+    "TAG_DEVICE_STATUS": {
+    	"tag": 357,
+    	"name": "TAG_DEVICE_STATUS",
+    	"description": "Device Status"
+    }
+}

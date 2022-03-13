@@ -1,0 +1,12 @@
+[
+    {
+        "env": "circle1",
+        "login": "YOUR_LOWER_ENVIRONMENT_LOGIN",
+        "password": "YOUR_LOWER_ENVIRONMENT_PASSWORD"
+    },
+    {
+        "env": "prod",
+        "login": "YOUR_PROD_LOGIN",
+        "password": "YOUR_PROD_PASSWORD"
+    }
+]
